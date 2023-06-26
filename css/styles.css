@@ -1,0 +1,139 @@
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.page-heder {
+    
+}
+
+.page-nav {
+     
+}
+.menu-item {
+color: var(--navyblue, #2E2F42);
+
+    /* Body Medium */
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1,5;
+    letter-spacing: 0.32px;
+    
+}
+
+.menu-link {
+    color: var(--navyblue, #2E2F42);
+    
+        /* Body Medium */
+        font-size: 16px;
+        font-family: Roboto, sans-serif;
+        font-weight: 500;
+        line-height: 1,5;
+        letter-spacing: 0.32px;
+        
+}
+
+.link-logo {
+color: var(--navyblue, #2E2F42);
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    line-height: 1,5;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.contact-mail {
+    color: var(--slate, #434455);
+    
+        /* Body */
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 1,5;
+        letter-spacing: 0.32px;
+}
+
+.contact-phon {
+    color: var(--slate, #434455);
+    
+        /* Body */
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 1,5;
+        letter-spacing: 0.32px;
+}
+
+.modal-btn {
+    color: var(--iris, #4D5AE5);
+        text-align: center;
+    
+        /* Button Text */
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: 500;
+        line-height: 1,5;
+        letter-spacing: 0.64px;
+        cursor: pointer;
+}
+
+.foto-foto {
+    color: var(--navyblue, #2E2F42);
+    
+        /* Header 3 */
+        font-size: 20px;
+        font-family: Roboto;
+        font-weight: 500;
+        line-height: 1,5;
+        letter-spacing: 0.4px;
+}
+
+.foto-f {
+    color: var(--slate, #434455);
+    
+        /* Body */
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 1,5;
+        letter-spacing: 0.32px;
+}
+
+.footer {
+    color: var(--cloud, #F4F4FD);
+        font-size: 18px;
+        font-family: Raleway;
+        font-weight: 800;
+        line-height: 1,5;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+
+.footer-text {
+    color: var(--cloud, #F4F4FD);
+    
+        /* Body */
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 1,5;
+        letter-spacing: 0.32px;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+    color: #404BBF;
+}
