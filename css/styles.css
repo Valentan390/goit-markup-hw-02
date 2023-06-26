@@ -93,7 +93,7 @@ color: var(--navyblue, #2E2F42);
 }
 
 .modal-btn {
-color: var(--white, #FFF);
+color: var(--white, #4d5ae5);
 
     /* Button Text */
     font-size: 16px;
@@ -101,21 +101,22 @@ color: var(--white, #FFF);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-        background-color: #4D5AE5;
+        background-color: #F4F4FD;
+        cursor: pointer;
 }
 
-.foto-foto {
+.abcd {
     color: var(--navyblue, #2E2F42);
     
         /* Header 3 */
         font-size: 20px;
         font-family: Roboto;
         font-weight: 500;
-        line-height: 1.5;
+        line-height: 1.2;
         letter-spacing: 0.4px;
 }
 
-.foto-f {
+.abcdef {
     color: var(--slate, #434455);
     
         /* Body */
@@ -124,6 +125,8 @@ color: var(--white, #FFF);
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
+
+
 
 .footer {
     color: var(--cloud, #F4F4FD);
