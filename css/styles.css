@@ -1,3 +1,7 @@
+:root {
+    --accent-color: #2e2f42;
+}
+
 .list {
     list-style: none;
 }
@@ -9,6 +13,7 @@
 body {
     font-family: Roboto, sans-serif;
     color: var(--slate, #434455);
+    background-color: #FFFFFF;
 }
 
 .page-heder {
