@@ -24,6 +24,79 @@ body {
      
 }
 
+.section-color {
+    background: var(--navyblue, #2E2F42);
+}
+
+.hhh-van {
+    color: var(--white, #FFF);
+        text-align: center;
+    
+        /* Header 1 */
+        font-size: 56px;
+        font-family: Roboto, sans-serif
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 1.12px;
+}
+
+.button-van {
+    color: var(--white, #FFF);
+    background-color: #4D5AE5;
+    
+        /* Button Text */
+        font-size: 16px;
+        font-family: Roboto, sans-serif
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.64px;
+        cursor: pointer;
+        
+}
+
+.batton-van:hover,
+.batton-van:focus {
+background-color: #404BBF;
+}
+
+.hhh-tu {
+    color: var(--navyblue, #2E2F42);
+    
+        /* Header 3 */
+        font-size: 20px;
+        font-family: Roboto, sans-serif
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+}
+
+.ppp-tu {
+    color: var(--slate, #434455);
+    
+        /* Body */
+        font-size: 16px;
+        font-family: Roboto, sans-serif
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+}
+
+.hhh-fri {
+    color: var(--navyblue, #2E2F42);
+        text-align: center;
+    
+        /* Header 2 */
+        font-size: 36px;
+        font-family: Roboto, sans-serif
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+}
+
+.section-fo {
+    background: var(--cloud, #F4F4FD);
+}
+
 .logo {
 color: var(--iris, #4D5AE5);
     font-size: 18px;
@@ -87,7 +160,7 @@ color: var(--navyblue, #2E2F42);
     
         /* Body */
         font-size: 16px;
-        font-family: Roboto;
+        font-family: Roboto, sans-serif;
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
